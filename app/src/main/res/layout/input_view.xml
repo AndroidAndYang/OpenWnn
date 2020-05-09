@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/candidateselected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/pinyinInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFFFFF"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD9D9" />
+
+    <RelativeLayout
+        android:id="@+id/candidateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/keyboard_letter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:stretchColumns="1,2,3,4,5,6,7,8,9,10">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/KEY_1"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/KEY_2"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/KEY_3"
+                        android:text="3" />
+
+                    <Button
+                        android:id="@+id/KEY_4"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/KEY_5"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/KEY_6"
+                        android:text="6" />
+
+                    <Button
+                        android:id="@+id/KEY_7"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/KEY_8"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/KEY_9"
+                        android:text="9" />
+
+                    <Button
+                        android:id="@+id/KEY_0"
+                        android:text="0" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/KEY_Q"
+                        android:text="Q" />
+
+                    <Button
+                        android:id="@+id/KEY_W"
+                        android:text="W" />
+
+                    <Button
+                        android:id="@+id/KEY_E"
+                        android:text="E" />
+
+                    <Button
+                        android:id="@+id/KEY_R"
+                        android:text="R" />
+
+                    <Button
+                        android:id="@+id/KEY_T"
+                        android:text="T" />
+
+                    <Button
+                        android:id="@+id/KEY_Y"
+                        android:text="Y" />
+
+                    <Button
+                        android:id="@+id/KEY_U"
+                        android:text="U" />
+
+                    <Button
+                        android:id="@+id/KEY_I"
+                        android:text="I" />
+
+                    <Button
+                        android:id="@+id/KEY_O"
+                        android:text="O" />
+
+                    <Button
+                        android:id="@+id/KEY_P"
+                        android:text="P" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/KEY_A"
+                        android:text="A" />
+
+                    <Button
+                        android:id="@+id/KEY_S"
+                        android:text="S" />
+
+                    <Button
+                        android:id="@+id/KEY_D"
+                        android:text="D" />
+
+                    <Button
+                        android:id="@+id/KEY_F"
+                        android:text="F" />
+
+                    <Button
+                        android:id="@+id/KEY_G"
+                        android:text="G" />
+
+                    <Button
+                        android:id="@+id/KEY_H"
+                        android:text="H" />
+
+
+                    <Button
+                        android:id="@+id/KEY_J"
+                        android:text="J" />
+
+                    <Button
+                        android:id="@+id/KEY_K"
+                        android:text="K" />
+
+                    <Button
+                        android:id="@+id/KEY_L"
+                        android:text="L" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/KEY_Z"
+                        android:text="Z" />
+
+                    <Button
+                        android:id="@+id/KEY_X"
+                        android:text="X" />
+
+                    <Button
+                        android:id="@+id/KEY_C"
+                        android:text="C" />
+
+                    <Button
+                        android:id="@+id/KEY_V"
+                        android:text="V" />
+
+                    <Button
+                        android:id="@+id/KEY_B"
+                        android:text="B" />
+
+                    <Button
+                        android:id="@+id/KEY_N"
+                        android:text="N" />
+
+                    <Button
+                        android:id="@+id/KEY_M"
+                        android:text="M" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <com.googlecode.openwnn.legacy.handwritingboard.HandWritingBoardLayout
+            android:id="@+id/handwrtingboard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/selectkeyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gray_conner"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/selecthandwriting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gray_conner"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="手写"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/KEY_DEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gray_conner"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="删除"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_conner"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="重写"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>
